@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int reverse(int x) {
+        if(x>2147483647||x<-2147483648){
+            return 0;
+        }
+        else{
+            long int diandao = 0;
+            int shuchu = 0;
+            while(x!=0){
+            int y = x%10;
+            diandao = diandao*10+y;
+            x/=10;
+            }
+            if(diandao<=2147483647&&diandao>=-2147483648){
+                shuchu = diandao;
+            }
+            return shuchu;
+        }
+    }
+};
