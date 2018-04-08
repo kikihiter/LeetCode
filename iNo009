@@ -1,0 +1,27 @@
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x>2147483647||x<0){
+            return false;
+        }
+        else{
+            long int diandao = 0;
+            int shuchu = 0;
+            int temp = x;
+            while(x!=0){
+            int y = x%10;
+            diandao = diandao*10+y;
+            x/=10;
+            }
+            if(diandao<=2147483647&&diandao>=0){
+                shuchu = diandao;
+            }
+            if(shuchu==temp){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }     
+    }
+};
