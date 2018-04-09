@@ -28,16 +28,16 @@ Input: 120
 Output: 21
 <br>
 Note:<br>
-Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
-<br>
+Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.<br>
+
 ### 9. Palindrome Number
-Determine whether an integer is a palindrome. Do this without extra space.
-<br>
+Determine whether an integer is a palindrome. Do this without extra space.<br>
+
 ### 13. Roman to Integer
 Given a roman numeral, convert it to an integer.<br>
 Input is guaranteed to be within the range from 1 to 3999.<br>
 <br>
-Hit 1:
+Hit 1:<br>
 I - 1
 V - 5
 X - 10
@@ -51,4 +51,3 @@ Rules:<br>
 * If I comes before V or X, subtract 1 eg: IV = 4 and IX = 9<br>
 * If X comes before L or C, subtract 10 eg: XL = 40 and XC = 90<br>
 * If C comes before D or M, subtract 100 eg: CD = 400 and CM = 900<br>
-<br>
