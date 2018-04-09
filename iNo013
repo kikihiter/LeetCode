@@ -1,0 +1,30 @@
+class Solution(object):
+    def romanToInt(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        a = 0
+        for i in range(len(s)):
+            if s[i] == 'I':
+                a += 1
+            if s[i] == 'V':
+                a += 5
+            if s[i] == 'X':
+                a += 10
+            if s[i] == 'L':
+                a += 50
+            if s[i] == 'C':
+                a += 100
+            if s[i] == 'D':
+                a += 500
+            if s[i] == 'M':
+                a += 1000
+            if i<len(s)-1 :
+                if s[i:i+2] == "IV" or s[i:i+2] == "IX":
+                    a -= 2
+                if s[i:i+2] == "XL" or s[i:i+2] == "XC":
+                    a -= 20
+                if s[i:i+2] == "CD" or s[i:i+2] == "CM":
+                    a -= 200
+        return a
