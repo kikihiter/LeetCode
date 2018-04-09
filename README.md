@@ -36,7 +36,7 @@ Determine whether an integer is a palindrome. Do this without extra space.<br>
 ### 13. Roman to Integer
 Given a roman numeral, convert it to an integer.<br>
 Input is guaranteed to be within the range from 1 to 3999.<br>
-<br>
+
 Hit 1:<br>
 I - 1
 V - 5
@@ -44,8 +44,8 @@ X - 10
 L - 50
 C - 100
 D - 500
-M - 1000
-<br>
+M - 1000<br>
+
 Hit 2:<br>
 Rules:<br>
 * If I comes before V or X, subtract 1 eg: IV = 4 and IX = 9<br>
