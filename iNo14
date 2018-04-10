@@ -1,0 +1,26 @@
+#python 18/04/10
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        max = 0
+        if len(strs)==0:
+            return ""
+        if len(strs)==1:
+            return strs[0]
+        if len(strs)!=0 and len(strs)!=1:
+            for i in range(len(min(strs))):
+                for j in range(len(strs)-1):
+                    if strs[j][i] != strs[j+1][i] :#and j<len(strs)-1 :
+                        #max = i
+                        break
+                else:
+                    max += 1
+                    continue
+                break
+            if max==0:
+                return ""
+            if max!=0:
+                return strs[0][0:max]
