@@ -51,3 +51,6 @@ Rules:<br>
 * If I comes before V or X, subtract 1 eg: IV = 4 and IX = 9<br>
 * If X comes before L or C, subtract 10 eg: XL = 40 and XC = 90<br>
 * If C comes before D or M, subtract 100 eg: CD = 400 and CM = 900<br>
+ 
+### 14. Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.<br>
