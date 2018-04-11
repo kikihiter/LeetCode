@@ -54,3 +54,7 @@ Rules:<br>
  
 ### 14. Longest Common Prefix
 Write a function to find the longest common prefix string amongst an array of strings.<br>
+ 
+### 20. Valid Parentheses
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.<br>
