@@ -1,0 +1,12 @@
+#python kiki 18/04/14
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        for i in range(len(nums)-1,-1,-1):
+            if i<len(nums)-1 and nums[i] == nums[i+1]:
+                del nums[i]
+        #这里没有return竟然也能过，return len(nums)
+        
