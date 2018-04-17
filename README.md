@@ -120,3 +120,19 @@ int len = removeElement(nums, val);<br>
 for (int i = 0; i < len; i++) {<br>
     print(nums[i]);<br>
 }<br>
+
+### 028. Implement strStr()
+Implement strStr().<br>
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.<br>
+
+Example 1:<br>
+Input: haystack = "hello", needle = "ll"<br>
+Output: 2<br>
+
+Example 2:<br>
+Input: haystack = "aaaaa", needle = "bba"<br>
+Output: -1<br>
+
+Clarification:<br>
+What should we return when needle is an empty string? This is a great question to ask during an interview.<br>
+For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().<br>
