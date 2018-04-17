@@ -136,3 +136,23 @@ Output: -1<br>
 Clarification:<br>
 What should we return when needle is an empty string? This is a great question to ask during an interview.<br>
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().<br>
+
+### 035. Search Insert Position
+Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.<br>
+You may assume no duplicates in the array.<br>
+
+Example 1:<br>
+Input: [1,3,5,6], 5<br>
+Output: 2<br>
+
+Example 2:<br>
+Input: [1,3,5,6], 2<br>
+Output: 1<br>
+
+Example 3:<br>
+Input: [1,3,5,6], 7<br>
+Output: 4<br>
+
+Example 4:<br>
+Input: [1,3,5,6], 0<br>
+Output: 0<br>
