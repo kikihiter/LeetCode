@@ -1,0 +1,43 @@
+#python kiki 18/04/18
+class Solution(object):
+    def countAndSay(self, n):
+        """
+        :type n: int
+        :rtype: str
+        """
+        countSay = "1"
+        temp = ""
+        if n <= 1:
+            return countSay
+        elif n>1:
+            for j in range(n-1):
+                for i in range(len(countSay)):
+                    if i>0 and countSay[i]==countSay[i-1]:
+                        continue
+                    if len(countSay)-i>=3 and countSay[i:i+3]=="111":
+                        temp=temp+"31"
+                        continue
+                    if len(countSay)-i>=3 and countSay[i:i+3]=="222":
+                        temp=temp+"32"
+                        continue
+                    if len(countSay)-i>=2 and countSay[i:i+2]=="11":
+                        temp=temp+"21"
+                        continue
+                    if len(countSay)-i>=2 and countSay[i:i+2]=="22":
+                        temp=temp+"22"
+                        continue
+                    if len(countSay)-i>=2 and countSay[i:i+2]=="33":
+                        temp=temp+"23"
+                        continue
+                    if countSay[i]=="1":
+                        temp=temp+"11"
+                        continue
+                    if countSay[i]=="2":
+                        temp=temp+"12"
+                        continue
+                    if countSay[i]=="3":
+                        temp=temp+"13"
+                        continue
+                countSay=temp
+                temp=""
+            return countSay
