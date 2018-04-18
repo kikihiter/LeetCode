@@ -156,3 +156,24 @@ Output: 4<br>
 Example 4:<br>
 Input: [1,3,5,6], 0<br>
 Output: 0<br>
+
+### 038. Count and Say
+The count-and-say sequence is the sequence of integers with the first five terms as following:<br>
+1.     1<br>
+2.     11<br>
+3.     21<br>
+4.     1211<br>
+5.     111221<br>
+1 is read off as "one 1" or 11.<br>
+11 is read off as "two 1s" or 21.<br>
+21 is read off as "one 2, then one 1" or 1211.<br>
+Given an integer n, generate the nth term of the count-and-say sequence.<br>
+Note: Each term of the sequence of integers will be represented as a string.<br>
+
+Example 1:<br>
+Input: 1<br>
+Output: "1"<br>
+
+Example 2:<br>
+Input: 4<br>
+Output: "1211"<br>
