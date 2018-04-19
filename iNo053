@@ -1,0 +1,15 @@
+#python kiki 18/04/19
+class Solution(object):
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        imax=-2147483648
+        temp=0
+        for i in range(len(nums)):
+            temp = temp + nums[i]
+            imax = imax if imax>temp else temp
+            if(temp<0):
+                temp = 0
+        return imax
