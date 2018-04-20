@@ -187,3 +187,12 @@ Output: 6<br>
 Explanation: [4,-1,2,1] has the largest sum = 6.<br>
 Follow up:<br>
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.<br>
+
+### 058. Length of Last Word
+Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.<br>
+If the last word does not exist, return 0.<br>
+Note: A word is defined as a character sequence consists of non-space characters only.<br>
+
+Example:<br>
+Input: "Hello World"<br>
+Output: 5<br>
