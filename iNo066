@@ -1,0 +1,31 @@
+#python kiki 18/04/20
+class Solution(object):
+    def plusOne(self, digits):
+        """
+        :type digits: List[int]
+        :rtype: List[int]
+        """
+        for i in range(len(digits))[::-1]:
+            if digits[i]<9:
+                digits[i] = digits[i]+1
+                break
+            elif digits[i]==9:
+                digits[i] = 0
+        else:
+            digits.insert(0,1)
+        return digits
+        """
+        看到个特别短的代码，复制过来，运行效率和我的差不多。这个想法我一开始就想到了，但是我以为会超int范围，没想到不会。。。
+        https://zhidao.baidu.com/question/1381068982378322460.html
+        在Python内部对整数的处理分为普通整数和长整数，普通整数长度为机器位长，通常都是32位，超过这个范围的整数就自动当长整数处理。
+        而长整数的范围几乎完全没限制。
+        所以long类型运算内部使用大数字算法实现，可以做到无长度限制。
+        所以说python真是强！
+        我尝试了
+        [9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9]
+        这样的输入，完全没有问题。。。
+        number = int(''.join([str(digit) for digit in digits]))
+        print number
+        return [int(digit) for digit in str(number)]
+        虽然题目要求非空数组，但是我自己本身的代码还是考虑了为空的情况，和答案是一致的，为[1],此处的这个算法没有考虑这一点，我觉得我还是很鲁棒的！
+        """
