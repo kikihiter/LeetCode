@@ -211,3 +211,15 @@ Example 2:<br>
 Input: [4,3,2,1]<br>
 Output: [4,3,2,2]<br>
 Explanation: The array represents the integer 4321.<br>
+
+### 067. Add Binary
+Given two binary strings, return their sum (also a binary string).<br>
+The input strings are both non-empty and contains only characters 1 or 0.<br>
+
+Example 1:<br>
+Input: a = "11", b = "1"<br>
+Output: "100"<br>
+
+Example 2:<br>
+Input: a = "1010", b = "1011"<br>
+Output: "10101"<br>
