@@ -1,0 +1,39 @@
+#python kiki 18/04/21
+class Solution(object):
+    def addBinary(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
+        t = 0
+        c = str(int(a) + int(b))
+        c = list(c)
+        #print c
+        for i in range(len(c))[::-1]:
+            #print i
+            if int(c[i])+t == 1:
+                #print c
+                c[i] = '1'
+                t=0
+               # print c,t
+                continue
+            if int(c[i])+t == 2:
+                #print c
+                c[i] = '0'
+                t=1
+                #print c,t
+                continue
+            if int(c[i])+t == 3:
+                #print c
+                c[i] = '1'
+                t=1
+                #print c,t
+                continue
+        c = "".join(c)
+        #print t
+        if t == 1:
+            #print c
+            c='1'+c
+            #print c
+        return c
