@@ -223,3 +223,20 @@ Output: "100"<br>
 Example 2:<br>
 Input: a = "1010", b = "1011"<br>
 Output: "10101"<br>
+
+### 069. Sqrt(x)
+Implement int sqrt(int x).<br>
+Compute and return the square root of x, where x is guaranteed to be a non-negative integer.<br>
+Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.<br>
+
+Example 1:<br>
+Input: 4
+Output: 2<br>
+
+Example 2:<br>
+Input: 8
+Output: 2<br>
+
+Explanation: The square root of 8 is 2.82842..., and since <br>
+             the decimal part is truncated, 2 is returned.<br>
+             
