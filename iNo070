@@ -1,0 +1,13 @@
+#python kiki 18/04/23
+from scipy.special import comb, perm
+#引用了排列组合
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        sum = 0
+        for i in range(n/2+1):
+            sum = sum + comb(n-i,i)
+        return int(sum)
