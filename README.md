@@ -259,3 +259,14 @@ Explanation: There are three ways to climb to the top.<br>
 1. 1 step + 1 step + 1 step<br>
 2. 1 step + 2 steps<br>
 3. 2 steps + 1 step<br>
+
+### 083. Remove Duplicates from Sorted List
+Given a sorted linked list, delete all duplicates such that each element appear only once.<br>
+
+Example 1:<br>
+Input: 1->1->2
+Output: 1->2<br>
+
+Example 2:<br>
+Input: 1->1->2->3->3
+Output: 1->2->3<br>
