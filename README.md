@@ -289,6 +289,7 @@ Given two binary trees, write a function to check if they are the same or not.<b
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.<br>
 
 Example 1:<br>
+
 Input:     1         1<br>
           / \       / \
          2   3     2   3<br>
@@ -297,6 +298,7 @@ Input:     1         1<br>
 Output: true<br>
 
 Example 2:<br>
+
 Input:     1         1<br>
           /           \
          2             2<br>
@@ -305,6 +307,7 @@ Input:     1         1<br>
 Output: false<br>
 
 Example 3:<br>
+
 Input:     1         1<br>
           / \       / \
          2   1     1   2<br>
