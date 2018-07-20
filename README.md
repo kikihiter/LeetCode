@@ -283,3 +283,31 @@ Input:<br>
 nums1 = [1,2,3,0,0,0], m = 3<br>
 nums2 = [2,5,6],       n = 3<br>
 Output: [1,2,2,3,5,6]<br>
+
+### 100. Same Tree
+Given two binary trees, write a function to check if they are the same or not.<br>
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.<br>
+
+Example 1:<br>
+Input:     1         1
+          / \       / \
+         2   3     2   3
+
+        [1,2,3],   [1,2,3]
+Output: true<br>
+
+Example 2:<br>
+Input:     1         1
+          /           \
+         2             2
+
+        [1,2],     [1,null,2]
+Output: false<br>
+
+Example 3:<br>
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+Output: false<br>
