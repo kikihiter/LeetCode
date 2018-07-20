@@ -289,57 +289,25 @@ Given two binary trees, write a function to check if they are the same or not.<b
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.<br>
 
 Example 1:<br>
-Input:     1         1
-          / \       / \
-         2   3     2   3
+Input:     1         1<br>
+          / \       / \<br>
+         2   3     2   3<br>
 
-        [1,2,3],   [1,2,3]
+        [1,2,3],   [1,2,3]<br>
 Output: true<br>
 
 Example 2:<br>
-Input:     1         1
-          /           \
-         2             2
+Input:     1         1<br>
+          /           \<br>
+         2             2<br>
 
-        [1,2],     [1,null,2]
+        [1,2],     [1,null,2]<br>
 Output: false<br>
 
 Example 3:<br>
-Input:     1         1
-          / \       / \
-         2   1     1   2
+Input:     1         1<br>
+          / \       / \<br>
+         2   1     1   2<br>
 
-        [1,2,1],   [1,1,2]
+        [1,2,1],   [1,1,2]<br>
 Output: false<br>
-
-Given two binary trees, write a function to check if they are the same or not.
-
-Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
-
-Example 1:
-
-Input:     1         1
-          / \       / \
-         2   3     2   3
-
-        [1,2,3],   [1,2,3]
-
-Output: true
-Example 2:
-
-Input:     1         1
-          /           \
-         2             2
-
-        [1,2],     [1,null,2]
-
-Output: false
-Example 3:
-
-Input:     1         1
-          / \       / \
-         2   1     1   2
-
-        [1,2,1],   [1,1,2]
-
-Output: false
