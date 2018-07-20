@@ -290,7 +290,7 @@ Two binary trees are considered the same if they are structurally identical and 
 
 Example 1:<br>
 Input:     1         1<br>
-          / \       / \<br>
+          / \       / \
          2   3     2   3<br>
 
         [1,2,3],   [1,2,3]<br>
@@ -298,7 +298,7 @@ Output: true<br>
 
 Example 2:<br>
 Input:     1         1<br>
-          /           \<br>
+          /           \
          2             2<br>
 
         [1,2],     [1,null,2]<br>
@@ -306,7 +306,7 @@ Output: false<br>
 
 Example 3:<br>
 Input:     1         1<br>
-          / \       / \<br>
+          / \       / \
          2   1     1   2<br>
 
         [1,2,1],   [1,1,2]<br>
