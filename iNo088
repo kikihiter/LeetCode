@@ -1,1 +1,20 @@
-
+class Solution(object):
+    def merge(self, nums1, m, nums2, n):
+        """
+        :type nums1: List[int]
+        :type m: int
+        :type nums2: List[int]
+        :type n: int
+        :rtype: void Do not return anything, modify nums1 in-place instead.
+        """
+        nums1Front = nums1[:m]
+        nums2Front = nums2[:n]
+        numsFront = nums1Front + nums2Front
+        numsFront.sort()
+        if m+n>=len(nums1):
+            nums = numsFront[:len(nums1)]
+        elif m+n<len(nums1):
+            nums = numsFront + nums1[m+n:]
+        #非常之不理解，本来没有下面这部分的，上面的nums替换成nums1，按理说应该可以改变nums1里面的元素，不知道为什么，就是改不了，难道说list必须对元素进行单独处理才可以改变？在这里只能理解为nums1传的是原list对象，直接nums1=[]，实际上是指向了一个新的对象，在函数调用结束后，自动释放了；而使用nums1[i]=，是直接修改原list内元素，list对象调用完成后本身发生改变，于是才有了这样的情况。
+        for i in range(len(nums)):
+            nums1[i]=nums[i]
