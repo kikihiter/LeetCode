@@ -11,3 +11,10 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)</br>
 Output: 7 -> 0 -> 8</br>
 Explanation: 342 + 465 = 807.</br>
 
+### 003. Longest Substring Without Repeating Characters
+Given a string, find the length of the longest substring without repeating characters.</br>
+
+Examples:</br>
+Given "abcabcbb", the answer is "abc", which the length is 3.</br>
+Given "bbbbb", the answer is "b", with the length of 1.</br>
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.</br>
