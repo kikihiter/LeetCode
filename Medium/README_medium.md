@@ -54,4 +54,41 @@ A   L S  I G</br>
 Y A   H R</br>
 P     I</br>
 
-6. ZigZag Conversion
+### 008. String to Integer (atoi)
+Implement atoi which converts a string to an integer.</br>
+The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.</br>
+The string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function.</br>
+If the first sequence of non-whitespace characters in str is not a valid integral number, or if no such sequence exists because either str is empty or it contains only whitespace characters, no conversion is performed.</br>
+If no valid conversion could be performed, a zero value is returned.</br>
+
+Note:</br>
+Only the space character ' ' is considered as whitespace character.</br>
+Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. If the numerical value is out of the range of representable values, INT_MAX (231 − 1) or INT_MIN (−231) is returned.</br>
+
+Example 1:</br>
+Input: "42"</br>
+Output: 42</br>
+
+Example 2:</br>
+Input: "   -42"</br>
+Output: -42</br>
+Explanation: The first non-whitespace character is '-', which is the minus sign.</br>
+             Then take as many numerical digits as possible, which gets 42.</br>
+
+Example 3:</br>
+Input: "4193 with words"</br>
+Output: 4193</br>
+Explanation: Conversion stops at digit '3' as the next character is not a numerical digit.</br>
+
+Example 4:</br>
+Input: "words and 987"</br>
+Output: 0</br>
+Explanation: The first non-whitespace character is 'w', which is not a numerical </br>
+             digit or a +/- sign. Therefore no valid conversion could be performed.</br>
+
+Example 5:</br>
+Input: "-91283472332"</br>
+Output: -2147483648</br>
+Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.</br>
+             Thefore INT_MIN (−231) is returned.</br>
+             
