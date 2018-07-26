@@ -131,3 +131,14 @@ Example 5:</br>
 Input: 1994</br>
 Output: "MCMXCIV"</br>
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.</br>
+
+### 017. Letter Combinations of a Phone Number
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.</br>
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.</br>
+
+Example:</br>
+Input: "23"</br>
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].</br>
+
+Note:</br>
+Although the above answer is in lexicographical order, your answer could be in any order you want.</br>
