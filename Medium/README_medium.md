@@ -142,3 +142,16 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].</br>
 
 Note:</br>
 Although the above answer is in lexicographical order, your answer could be in any order you want.</br>
+
+### 019. Remove Nth Node From End of List
+Given a linked list, remove the n-th node from the end of list and return its head.</br>
+
+Example:</br>
+Given linked list: 1->2->3->4->5, and n = 2.</br>
+After removing the second node from the end, the linked list becomes 1->2->3->5.</br>
+
+Note:</br>
+Given n will always be valid.</br>
+
+Follow up:</br>
+Could you do this in one pass?</br>
