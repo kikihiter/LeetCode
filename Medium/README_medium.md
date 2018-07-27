@@ -157,3 +157,12 @@ Follow up:</br>
 Could you do this in one pass?</br>
 
 ### 022. Generate Parentheses
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.</br>
+For example, given n = 3, a solution set is:</br>
+[</br>
+  "((()))",</br>
+  "(()())",</br>
+  "(())()",</br>
+  "()(())",</br>
+  "()()()"</br>
+]</br>
