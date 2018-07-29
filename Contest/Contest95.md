@@ -94,4 +94,6 @@ Note:</br>
 1 <= group[i] <= 100</br>
 0 <= profit[i] <= 100</br>
 1 <= group.length = profit.length <= 100</br>
- 
+
+### Rank：
+1258 / 4580	kikihiter 	8	1:25:49	 0:09:55	 1:25:49		
