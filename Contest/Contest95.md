@@ -21,7 +21,7 @@ The number of nodes in the given list will be between 1 and 100.</br>
 ### 877. Stone Game
 Alex and Lee play a game with piles of stones.  There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].</br>
 The objective of the game is to end with the most stones.  The total number of stones is odd, so there are no ties.</br>
-Alex and Lee take turns, with Alex starting first.  Each turn, a player takes the entire pile of stones from either the beginning or the end of the row.  This continues until there are no more piles left, at which point the person with the most stones wins.</br></br>
+Alex and Lee take turns, with Alex starting first.  Each turn, a player takes the entire pile of stones from either the beginning or the end of the row.  This continues until there are no more piles left, at which point the person with the most stones wins.</br>
 Assuming Alex and Lee play optimally, return True if and only if Alex wins the game.</br>
 
 Example 1:</br>
@@ -39,3 +39,28 @@ Note:</br>
 piles.length is even.</br>
 1 <= piles[i] <= 500</br>
 sum(piles) is odd.</br>
+
+### 878. Nth Magical Number
+A positive integer is magical if it is divisible by either A or B.</br>
+Return the N-th magical number. Since the answer may be very large, return it modulo 10^9 + 7.</br>
+
+Example 1:</br>
+Input: N = 1, A = 2, B = 3</br>
+Output: 2</br>
+
+Example 2:</br>
+Input: N = 4, A = 2, B = 3</br>
+Output: 6</br>
+
+Example 3:</br>
+Input: N = 5, A = 2, B = 4</br>
+Output: 10</br>
+
+Example 4:</br>
+Input: N = 3, A = 6, B = 4</br>
+Output: 8</br>
+ 
+Note:</br>
+1 <= N <= 10^9</br>
+2 <= A <= 40000</br>
+2 <= B <= 40000</br>
