@@ -166,3 +166,12 @@ For example, given n = 3, a solution set is:</br>
   "()(())",</br>
   "()()()"</br>
 ]</br>
+
+### 024. Swap Nodes in Pairs
+Given a linked list, swap every two adjacent nodes and return its head.</br>
+
+Example:</br>
+Given 1->2->3->4, you should return the list as 2->1->4->3.</br>
+Note:</br>
+Your algorithm should use only constant extra space.</br>
+You may not modify the values in the list's nodes, only nodes itself may be changed.</br>
