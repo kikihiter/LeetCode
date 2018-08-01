@@ -204,3 +204,17 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 3,2,1 → 1,2,3</br>
 1,1,5 → 1,5,1</br>
 
+### 033. Search in Rotated Sorted Array
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</br>
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).</br>
+You are given a target value to search. If found in the array return its index, otherwise return -1.</br>
+You may assume no duplicate exists in the array.</br>
+Your algorithm's runtime complexity must be in the order of O(log n).</br>
+
+Example 1:</br>
+Input: nums = [4,5,6,7,0,1,2], target = 0</br>
+Output: 4</br>
+
+Example 2:</br>
+Input: nums = [4,5,6,7,0,1,2], target = 3</br>
+Output: -1</br>
