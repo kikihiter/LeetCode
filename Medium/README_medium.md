@@ -231,3 +231,4 @@ Output: [3,4]</br>
 Example 2:</br>
 Input: nums = [5,7,7,8,8,10], target = 6</br>
 Output: [-1,-1]</br>
+
