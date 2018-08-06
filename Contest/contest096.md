@@ -56,3 +56,35 @@ Explanation: 4 boats (3), (3), (4), (5)</br>
 Note:</br>
 1 <= people.length <= 50000</br>
 1 <= people[i] <= limit <= 30000</br>
+
+### 884. Decoded String at Index
+An encoded string S is given.  To find and write the decoded string to a tape, the encoded string is read one character at a time and the following steps are taken:</br>
+If the character read is a letter, that letter is written onto the tape.</br>
+If the character read is a digit (say d), the entire current tape is repeatedly written d-1 more times in total.</br>
+Now for some encoded string S, and an index K, find and return the K-th letter (1 indexed) in the decoded string.</br>
+
+Example 1:</br>
+Input: S = "leet2code3", K = 10</br>
+Output: "o"</br>
+Explanation: </br>
+The decoded string is "leetleetcodeleetleetcodeleetleetcode".</br>
+The 10th letter in the string is "o".</br>
+
+Example 2:</br>
+Input: S = "ha22", K = 5</br>
+Output: "h"</br>
+Explanation: </br>
+The decoded string is "hahahaha".  The 5th letter is "h".</br>
+
+Example 3:</br>
+Input: S = "a2345678999999999999999", K = 1</br>
+Output: "a"</br>
+Explanation: </br>
+The decoded string is "a" repeated 8301530446056247680 times.  The 1st letter is "a".</br>
+ 
+Note:</br>
+2 <= S.length <= 100</br>
+S will only contain lowercase letters and digits 2 through 9.</br>
+S starts with a letter.</br>
+1 <= K <= 10^9</br>
+The decoded string is guaranteed to have less than 2^63 letters.</br>
