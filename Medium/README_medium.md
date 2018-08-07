@@ -277,3 +277,28 @@ A Sudoku board (partially filled) could be valid but is not necessarily solvable
 Only the filled cells need to be validated according to the mentioned rules.</br>
 The given board contain only digits 1-9 and the character '.'.</br>
 The given board size is always 9x9.</br>
+
+### 039. Combination Sum
+Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.</br>
+The same repeated number may be chosen from candidates unlimited number of times.</br>
+
+Note:</br>
+All numbers (including target) will be positive integers.</br>
+The solution set must not contain duplicate combinations.</br>
+
+Example 1:</br>
+Input: candidates = [2,3,6,7], target = 7,</br>
+A solution set is:</br>
+[</br>
+  [7],</br>
+  [2,2,3]</br>
+]</br>
+
+Example 2:</br>
+Input: candidates = [2,3,5], target = 8,</br>
+A solution set is:</br>
+[</br>
+  [2,2,2,2],</br>
+  [2,3,3],</br>
+  [3,5]</br>
+]</br>
