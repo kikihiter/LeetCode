@@ -304,3 +304,27 @@ A solution set is:</br>
 ]</br>
 
 ### 040. Combination Sum II
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.</br>
+Each number in candidates may only be used once in the combination.</br>
+
+Note:</br>
+All numbers (including target) will be positive integers.</br>
+The solution set must not contain duplicate combinations.</br>
+
+Example 1:</br>
+Input: candidates = [10,1,2,7,6,1,5], target = 8,</br>
+A solution set is:</br>
+[</br>
+  [1, 7],</br>
+  [1, 2, 5],</br>
+  [2, 6],</br>
+  [1, 1, 6]</br>
+]</br>
+
+Example 2:</br>
+Input: candidates = [2,5,2,1,2], target = 5,</br>
+A solution set is:</br>
+[</br>
+  [1,2,2],</br>
+  [5]</br>
+]</br>
