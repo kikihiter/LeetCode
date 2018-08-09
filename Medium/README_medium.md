@@ -345,3 +345,18 @@ The length of both num1 and num2 is < 110.</br>
 Both num1 and num2 contain only digits 0-9.</br>
 Both num1 and num2 do not contain any leading zero, except the number 0 itself.</br>
 You must not use any built-in BigInteger library or convert the inputs to integer directly.</br>
+
+### 046. Permutations
+Given a collection of distinct integers, return all possible permutations.</br>
+
+Example:</br>
+Input: [1,2,3]</br>
+Output:</br>
+[</br>
+  [1,2,3],</br>
+  [1,3,2],</br>
+  [2,1,3],</br>
+  [2,3,1],</br>
+  [3,1,2],</br>
+  [3,2,1]</br>
+]</br>
