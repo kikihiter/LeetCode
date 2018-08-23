@@ -372,3 +372,40 @@ Output:</br>
   [1,2,1],</br>
   [2,1,1]</br>
 ]</br>
+
+### 048. Rotate Image
+You are given an n x n 2D matrix representing an image.</br>
+Rotate the image by 90 degrees (clockwise).</br>
+
+Note:</br>
+You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.</br>
+
+Example 1:</br>
+Given input matrix = </br>
+[</br>
+  [1,2,3],</br>
+  [4,5,6],</br>
+  [7,8,9]</br>
+],</br>
+rotate the input matrix in-place such that it becomes:</br>
+[</br>
+  [7,4,1],</br>
+  [8,5,2],</br>
+  [9,6,3]</br>
+]</br>
+
+Example 2:</br>
+Given input matrix =</br>
+[</br>
+  [ 5, 1, 9,11],</br>
+  [ 2, 4, 8,10],</br>
+  [13, 3, 6, 7],</br>
+  [15,14,12,16]</br>
+], </br>
+rotate the input matrix in-place such that it becomes:</br>
+[</br>
+  [15,13, 2, 5],</br>
+  [14, 3, 4, 1],</br>
+  [12, 6, 8, 9],</br>
+  [16, 7,10,11]</br>
+]</br>
