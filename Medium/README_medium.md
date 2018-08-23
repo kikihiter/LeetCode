@@ -361,3 +361,14 @@ Output:</br>
   [3,2,1]</br>
 ]</br>
 
+### 047. Permutations II
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.</br>
+
+Example:</br>
+Input: [1,1,2]</br>
+Output:</br>
+[</br>
+  [1,1,2],</br>
+  [1,2,1],</br>
+  [2,1,1]</br>
+]</br>
