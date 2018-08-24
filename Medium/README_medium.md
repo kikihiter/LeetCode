@@ -409,3 +409,19 @@ rotate the input matrix in-place such that it becomes:</br>
   [12, 6, 8, 9],</br>
   [16, 7,10,11]</br>
 ]</br>
+
+### 049. Group Anagrams
+Given an array of strings, group anagrams together.</br>
+
+Example:</br>
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"],</br>
+Output:</br>
+[</br>
+  ["ate","eat","tea"],</br>
+  ["nat","tan"],</br>
+  ["bat"]</br>
+]</br>
+
+Note:</br>
+All inputs will be in lowercase.</br>
+The order of your output does not matter.</br>
