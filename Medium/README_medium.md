@@ -425,3 +425,23 @@ Output:</br>
 Note:</br>
 All inputs will be in lowercase.</br>
 The order of your output does not matter.</br>
+
+### 050. Pow(x, n)
+Implement pow(x, n), which calculates x raised to the power n (xn).</br>
+
+Example 1:</br>
+Input: 2.00000, 10</br>
+Output: 1024.00000</br>
+
+Example 2:</br>
+Input: 2.10000, 3</br>
+Output: 9.26100</br>
+
+Example 3:</br>
+Input: 2.00000, -2</br>
+Output: 0.25000</br>
+Explanation: 2-2 = 1/22 = 1/4 = 0.25</br>
+
+Note:</br>
+-100.0 < x < 100.0</br>
+n is a 32-bit signed integer, within the range [−231, 231 − 1]</br>
