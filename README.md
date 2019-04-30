@@ -314,3 +314,16 @@ Input:     1         1<br>
 
         [1,2,1],   [1,1,2]<br>
 Output: false<br>
+
+### 104. Maximum Depth of Binary Tree
+Given a binary tree, find its maximum depth.<br>
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.<br>
+Note: A leaf is a node with no children.<br>
+Example:<br>
+Given binary tree [3,9,20,null,null,15,7],<br>
+    3<br>
+   / \<br>
+  9  20<br>
+    /  \<br>
+   15   7<br>
+return its depth = 3.<br>
