@@ -322,8 +322,8 @@ Note: A leaf is a node with no children.<br>
 Example:<br>
 Given binary tree [3,9,20,null,null,15,7],<br>
     3<br>
-   / \<br>
+   / \\<br>
   9  20<br>
-    /  \<br>
+    /  \\<br>
    15   7<br>
 return its depth = 3.<br>
